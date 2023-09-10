@@ -27,9 +27,9 @@ class _window_manager_t {
 public:
     _window_manager_t(int argc, char **argv) {
         // in future parse the args to get the actual connection
-        _display = XOpenDisplay(":1");
+        _display = XOpenDisplay(nullptr);
         if (!_display) {
-            THROW("Failed to open X display" << XDisplayName(":1"));
+            THROW("Failed to open X display" << XDisplayName(nullptr));
         }
         _root = DefaultRootWindow(_display);
 
