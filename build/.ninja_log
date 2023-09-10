@@ -1,0 +1,6 @@
+# ninja log v5
+1	24	1694250250345635865	app/test/CMakeFiles/test.dir/main.cpp.o	93d914f9be690076
+1	334	1694163151353664104	window_manager/CMakeFiles/window_manager.dir/test.cpp.o	4d2307a1e052cc46
+743	785	1694338816821390308	window_manager/libwindow_manager.a	d7f37dbe427b9650
+785	853	1694338816893390545	app/test/test	faf96f026cc8de55
+1	743	1694338816781390177	window_manager/CMakeFiles/window_manager.dir/window_manager.cpp.o	e4e012386e429bf
